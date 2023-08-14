@@ -1,5 +1,5 @@
 # SQL-DiabetesDB
-This project consists of two tables- Table1 and BMITBL where we perform all the basic queries to analyze the Health records of Diabetic Female Patients.
+This project contains  the Health records of Diabetic Female Patients.
 Table1 has 10 columns and 100 rows(filename : Table1)
 BMITBL has 2 columns and 4 rows(filename : BMITBL)
 (Please check TablesCreation file to get the code for table creation)
