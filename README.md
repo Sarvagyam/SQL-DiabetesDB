@@ -1,5 +1,13 @@
 # SQL-DiabetesDB
-This project contains  the Health records of Diabetic Female Patients.
+
+An SQL Analysis of Female Diabetic patients based on certain diagnotic instance measurements.
+Several constraints were placed on the selection of these instances from a larger database. 
+In particular, all patients here are females at least 21 years old of Pima Indian heritage. 
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney
+Diseases.
+
+The objective this project is to determine the trend and relations between instances with diabetes.
+
 Table1 has 10 columns and 100 rows(filename : Table1)
 BMITBL has 2 columns and 4 rows(filename : BMITBL)
 (Please check TablesCreation file to get the code for table creation)
