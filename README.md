@@ -16,7 +16,7 @@ BMITBL has 2 columns and 4 rows.(filename : BMITBL)
 
 The questions that are framed are follows:
 
-1. Use Case-When statement to provide BMI_RANGE to each BMI value in Table1.(filename : CASEWHEN)
+1. Use Case-When statement to provide BMI_RANGE to each BMI value in Table1.[filename : CASEWHEN](https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q1.png)
 2. Use Aggregate function to find the Average age of women.(filename : AVGW)
 3. Find the number patients in each BMI_RANGE.(filename : BMIRC)
 4. Find the details of patients with age 20-40 with BMI as 'Normal'.(filename : Q1)
