@@ -21,6 +21,7 @@ The questions that are framed are follows:
     3. Hypertension2 : between 89(inclusive) and 120
     4. Hypertensive Crisis : above 120(inclusive)
 10. Show the Blood Pressure and count od diabetic and non-diabetic patients with BMI as 'Normal'.(filename : Q7)
+11. Show the number of diabetic and non-diabetic patients with BMI > 24.9 and Blood Pressure above 80.(filename : Q8)
 
 
 
