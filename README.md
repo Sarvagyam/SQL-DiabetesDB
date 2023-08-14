@@ -1,12 +1,11 @@
 # SQL-DiabetesDB
 
-An SQL Analysis of Female Diabetic patients based on certain diagnotic instance measurements.
-Several constraints were placed on the selection of these instances from a larger database. 
-In particular, all patients here are females at least 21 years old of Pima Indian heritage. 
-This dataset is originally from the National Institute of Diabetes and Digestive and Kidney
-Diseases.
+An SQL Analysis of Female Diabetic patients based on their health information.This dataset
+is originally from the National Institute of Diabetes and Digestive and Kidney
+Diseases.All patients here are females that are at least 21 years old of Pima Indian heritage. 
 
-The objective of this project is to determine the trends and relations between instances with diabetes.
+The objective of this project is to determine the trends and relations amongst diabetic 
+patient's health information.
 
 Table1 has 10 columns and 100 rows.(filename : Table1)
 
@@ -16,7 +15,7 @@ BMITBL has 2 columns and 4 rows.(filename : BMITBL)
 
 The questions that are framed are follows:
 
-1. Use Case-When statement to provide BMI_RANGE to each BMI value in Table1.[filename : CASEWHEN](https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q1.png)
+1. Use Case-When statement to provide BMI_RANGE to each BMI value in Table1.(filename : CASEWHEN)
 2. Use Aggregate function to find the Average age of women.(filename : AVGW)
 3. Find the number patients in each BMI_RANGE.(filename : BMIRC)
 4. Find the details of patients with age 20-40 with BMI as 'Normal'.(filename : Q1)
