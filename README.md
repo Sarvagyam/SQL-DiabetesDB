@@ -8,8 +8,10 @@ Diseases.
 
 The objective this project is to determine the trend and relations between instances with diabetes.
 
-Table1 has 10 columns and 100 rows(filename : Table1)
-BMITBL has 2 columns and 4 rows(filename : BMITBL)
+Table1 has 10 columns and 100 rows.(filename : Table1)
+
+BMITBL has 2 columns and 4 rows.(filename : BMITBL)
+
 (Please check TablesCreation file to get the code for table creation)
 
 The questions that are framed are follows:
