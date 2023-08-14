@@ -6,7 +6,7 @@ In particular, all patients here are females at least 21 years old of Pima India
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney
 Diseases.
 
-The objective this project is to determine the trend and relations between instances with diabetes.
+The objective of this project is to determine the trends and relations between instances with diabetes.
 
 Table1 has 10 columns and 100 rows.(filename : Table1)
 
