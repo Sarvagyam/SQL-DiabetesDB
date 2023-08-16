@@ -9,3 +9,4 @@ patient's health information.
 
 [Please check TablesCreation file to get the code for table creation](https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/TablesCreation)
 
+[Please check Queries.md file for the analysis](https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Queries.md) 
