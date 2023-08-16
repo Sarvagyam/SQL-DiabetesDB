@@ -148,4 +148,4 @@ FROM BPTBL JOIN Table1 ON (REG_P = REG)
 	          JOIN BMITBL ON (REG_P = REG_B)
 WHERE BP > 80 AND BMITBL.BMI_RANGE IN (‘Obese’,’Overweight’);
 ````
-<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q8.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q8.jpg" height="10%" width="90%" >
