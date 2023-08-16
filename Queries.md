@@ -34,7 +34,7 @@ SELECT * FROM BMITBL JOIN Table1 ON (REG_B = REG)
 WHERE (Table1.Age BETWEEN 20 AND 40)
 AND BMI = ‘Normal’;
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q1.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q1.png" height="10%" width="90%" >
 
 #### 5. Print REG, BMI, Age and Result(diabetic or Non-Diabetic) of patients with BMI > 24.9(Above 'Normal').
 
@@ -47,7 +47,7 @@ ELSE ‘Diabetic’
 	FROM BMITBL JOIN Table1 ON (REG_B=REG)
 	WHERE BMITBL.BMI > 24.9;
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q2.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q2.png" height="10%" width="90%" >
 
 #### 6. Count the number of Diabetic and Non - Diabetic patients.
 
@@ -60,7 +60,7 @@ END AS Result, COUNT(Outcome)
 FROM BMITBL JOIN Table1 ON (REG_B = REG)
 GROUP BY Result ;
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q3.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q3.png" height="10%" width="90%" >
 
 #### 7. Count and print the number of patients with no diabetes with respect to BMI_RANGES.
 
@@ -70,7 +70,7 @@ ON (REG = REG_B)
 WHERE Outcome = 0
 GROUP BY BMI_RANGE;
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q4.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q4.png" height="10%" width="90%" >
 
 #### 8.	Show the BMI_RANGE with respect to diabetic and non-diabetic patients column wise.
 
@@ -83,7 +83,7 @@ SUM(CASE
 FROM Table1 JOIN BMITBL ON (REG=REG_B)
 GROUP BY BMI_RANGE;
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q5.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q5.png" height="10%" width="90%" >
 
 #### 9. Create a Table for Blood Pressure with below details, and count diabetic and non-diabetic patients
   #### with BMI not in Normal Range with Blood Pressure ranges defined below.
@@ -119,7 +119,7 @@ FROM BMPTBL JOIN Table1 ON (REG_P = REG)
 WHERE BMI > 24.9 OR BMI < 18.9
 GROUP BY BP_RANGE;
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q6.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q6.png" height="10%" width="90%" >
 
 #### 10. Show the Blood Pressure and count od diabetic and non-diabetic patients with BMI as 'Normal'.
 
@@ -134,7 +134,7 @@ FROM BPTBL JOIN Table1 ON (REG_P = REG)
 WHERE BMI_RANGE = ‘Normal’
 GROUP BY BP_RANGE;
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q7.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q7.png" height="10%" width="90%" >
 
 #### 11. Show the number of diabetic and non-diabetic patients with BMI > 24.9 and Blood Pressure above 80.
 
@@ -148,4 +148,4 @@ FROM BPTBL JOIN Table1 ON (REG_P = REG)
 	          JOIN BMITBL ON (REG_P = REG_B)
 WHERE BP > 80 AND BMITBL.BMI_RANGE IN (‘Obese’,’Overweight’);
 ````
-<img src="hhttps://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q8.png" height="10%" width="90%" >
+<img src="https://github.com/Sarvagyam/SQL-DiabetesDB/blob/main/Q8.png" height="10%" width="90%" >
